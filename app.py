@@ -28,7 +28,8 @@ st.markdown("""
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');
     
-    * {
+    /* Use the custom font for text, but preserve Streamlit/Material icon fonts */
+    *:not(.material-icons):not(.material-icons-outlined):not(.material-icons-round):not(.material-icons-sharp):not(.material-icons-two-tone) {
         font-family: 'Outfit', sans-serif !important;
     }
     
