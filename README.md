@@ -122,6 +122,21 @@ streamlit run app.py
 
 The app will open at `http://localhost:8501` in your browser.
 
+## ☁️ Deploy on Streamlit Community Cloud
+
+1. Push this repository to GitHub.
+2. Go to https://share.streamlit.io (Streamlit Community Cloud).
+3. Click **New app** → choose the GitHub repo.
+4. Set:
+    - **Repository**: `Shahidsk07/House_prices_estimation`
+    - **Branch**: `main`
+    - **Main file path**: `app.py`
+5. Click **Deploy**.
+
+Notes:
+- The app loads the dataset from `data/` and model artifacts from `models/`.
+- If you update the model, re-run `python train_model.py` locally and push the updated `models/` and `plots/`.
+
 ## 🎯 How to Use
 
 ### Home Page
